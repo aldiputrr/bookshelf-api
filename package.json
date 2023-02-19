@@ -1,20 +1,21 @@
 {
 	"name": "Bookself-API",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "Books List App with CRUD Functionality",
+	"main": "server.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start-dev": "nodemon ./src/server.js"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Aldiansyah Dwi Putra",
 	"license": "ISC",
 	"dependencies": {
 		"@hapi/hapi": "^20.2.2",
 		"nanoid": "^3.3.4"
 	},
 	"devDependencies": {
-		"nodemon": "^2.0.19"
+		"nodemon": "^2.0.19",
+		"prettier": "2.8.3"
 	}
 }
